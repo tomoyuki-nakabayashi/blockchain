@@ -4,4 +4,10 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Blockchain	../blockchain.py	/^class Blockchain(object):$/;"	kind:class	line:7
+__init__	../blockchain.py	/^    def __init__(self):$/;"	kind:member	line:8
 blockchain.py	../blockchain.py	1;"	kind:file	line:1
+hash	../blockchain.py	/^    def hash(block):$/;"	kind:member	line:57
+last_block	../blockchain.py	/^    def last_block(self):$/;"	kind:member	line:70
+new_block	../blockchain.py	/^    def new_block(self, proof, previous_hash=None):$/;"	kind:member	line:15
+new_transaction	../blockchain.py	/^    def new_transaction(self, sender, recipient, amount):$/;"	kind:member	line:38
