@@ -4,10 +4,18 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-Blockchain	../blockchain.py	/^class Blockchain(object):$/;"	kind:class	line:7
-__init__	../blockchain.py	/^    def __init__(self):$/;"	kind:member	line:8
+Blockchain	../blockchain.py	/^class Blockchain(object):$/;"	kind:class	line:11
+__init__	../blockchain.py	/^    def __init__(self):$/;"	kind:member	line:12
+app	../blockchain.py	/^app = Flask(__name__)$/;"	kind:variable	line:108
+blockchain	../blockchain.py	/^blockchain = Blockchain()$/;"	kind:variable	line:114
 blockchain.py	../blockchain.py	1;"	kind:file	line:1
-hash	../blockchain.py	/^    def hash(block):$/;"	kind:member	line:57
-last_block	../blockchain.py	/^    def last_block(self):$/;"	kind:member	line:70
-new_block	../blockchain.py	/^    def new_block(self, proof, previous_hash=None):$/;"	kind:member	line:15
-new_transaction	../blockchain.py	/^    def new_transaction(self, sender, recipient, amount):$/;"	kind:member	line:38
+full_chain	../blockchain.py	/^def full_chain():$/;"	kind:function	line:160
+hash	../blockchain.py	/^    def hash(block):$/;"	kind:member	line:91
+last_block	../blockchain.py	/^    def last_block(self):$/;"	kind:member	line:104
+mine	../blockchain.py	/^def mine():$/;"	kind:function	line:117
+new_block	../blockchain.py	/^    def new_block(self, proof, previous_hash=None):$/;"	kind:member	line:19
+new_transaction	../blockchain.py	/^    def new_transaction(self, sender, recipient, amount):$/;"	kind:member	line:42
+new_transaction	../blockchain.py	/^def new_transaction():$/;"	kind:function	line:145
+node_identifier	../blockchain.py	/^node_identifier = str(uuid4()).replace('-', '')$/;"	kind:variable	line:111
+proof_of_work	../blockchain.py	/^    def proof_of_work(self, last_proof):$/;"	kind:member	line:60
+valid_proof	../blockchain.py	/^    def valid_proof(last_proof, proof):$/;"	kind:member	line:77
